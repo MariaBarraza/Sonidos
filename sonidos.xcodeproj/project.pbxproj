@@ -14,6 +14,7 @@
 		3DCF6B7C230DEA3B00CFB9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF6B7A230DEA3B00CFB9D8 /* LaunchScreen.storyboard */; };
 		3DCF6B87230DEA3B00CFB9D8 /* sonidosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF6B86230DEA3B00CFB9D8 /* sonidosTests.swift */; };
 		3DCF6B92230DEA3B00CFB9D8 /* sonidosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF6B91230DEA3B00CFB9D8 /* sonidosUITests.swift */; };
+		3DCF6BA0230DEC5D00CFB9D8 /* Jumping-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF6B9F230DEC5D00CFB9D8 /* Jumping-sound-effect.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3DCF6B8D230DEA3B00CFB9D8 /* sonidosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sonidosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCF6B91230DEA3B00CFB9D8 /* sonidosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sonidosUITests.swift; sourceTree = "<group>"; };
 		3DCF6B93230DEA3B00CFB9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCF6B9F230DEC5D00CFB9D8 /* Jumping-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jumping-sound-effect.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		3DCF6B70230DEA3900CFB9D8 /* sonidos */ = {
 			isa = PBXGroup;
 			children = (
+				3DCF6B9F230DEC5D00CFB9D8 /* Jumping-sound-effect.mp3 */,
 				3DCF6B71230DEA3900CFB9D8 /* AppDelegate.swift */,
 				3DCF6B73230DEA3900CFB9D8 /* ViewController.swift */,
 				3DCF6B75230DEA3900CFB9D8 /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DCF6BA0230DEC5D00CFB9D8 /* Jumping-sound-effect.mp3 in Resources */,
 				3DCF6B7C230DEA3B00CFB9D8 /* LaunchScreen.storyboard in Resources */,
 				3DCF6B79230DEA3B00CFB9D8 /* Assets.xcassets in Resources */,
 				3DCF6B77230DEA3900CFB9D8 /* Main.storyboard in Resources */,
