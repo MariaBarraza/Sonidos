@@ -10,25 +10,45 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
-    
-    @IBAction func doTapReproducir(_ sender: Any) {
-        if player != nil {
-            player?.play()
-        }
-    }
     //signo de interrogación para decir que no se esta seguro del tipo
     var player : AVAudioPlayer?
+    var playerMusicaFondo : AVAudioPlayer?
+    
+    var reproduccion = false
 
+    
+    @IBAction func doTapReproducir(_ sender: Any) {
+        
+        
+        if reproduccion {
+            let pathMusicaFondo = Bundle.main.path(forResource: "pistola_bang.mp3", ofType: nil)
+            let urlMusicaFondo = URL(fileURLWithPath: pathMusicaFondo!)
+            do {
+                player = try AVAudioPlayer(contentsOf: urlMusicaFondo)
+                //playerMusicaFondo?.play()
+            }catch {
+                
+            }
+        }else {
+            reproduccion = true
+        }
+        
+        if player != nil {
+            player?.play()
+            
+        }
+    }
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //bundle es una clase qu representa el empaquetado de la aplicación, nil porque no se ocupa saber el tipo de dato que es
         let path = Bundle.main.path(forResource: "Jumping-sound-effect.mp3", ofType: nil)
         let url = URL(fileURLWithPath: path!)
-        
-        
+
         do {
             player = try AVAudioPlayer(contentsOf: url)
+            //playerMusicaFondo?.play()
         }catch {
             
         }

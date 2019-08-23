@@ -15,6 +15,8 @@
 		3DCF6B87230DEA3B00CFB9D8 /* sonidosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF6B86230DEA3B00CFB9D8 /* sonidosTests.swift */; };
 		3DCF6B92230DEA3B00CFB9D8 /* sonidosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF6B91230DEA3B00CFB9D8 /* sonidosUITests.swift */; };
 		3DCF6BA0230DEC5D00CFB9D8 /* Jumping-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF6B9F230DEC5D00CFB9D8 /* Jumping-sound-effect.mp3 */; };
+		3DD1626C23107EC80075D4DA /* pistola_bang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1626B23107EC80075D4DA /* pistola_bang.mp3 */; };
+		3DD1626E231089190075D4DA /* PantallaRojaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1626D231089190075D4DA /* PantallaRojaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3DCF6B91230DEA3B00CFB9D8 /* sonidosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sonidosUITests.swift; sourceTree = "<group>"; };
 		3DCF6B93230DEA3B00CFB9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DCF6B9F230DEC5D00CFB9D8 /* Jumping-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jumping-sound-effect.mp3"; sourceTree = "<group>"; };
+		3DD1626B23107EC80075D4DA /* pistola_bang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pistola_bang.mp3; sourceTree = "<group>"; };
+		3DD1626D231089190075D4DA /* PantallaRojaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaRojaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		3DCF6B70230DEA3900CFB9D8 /* sonidos */ = {
 			isa = PBXGroup;
 			children = (
+				3DD1626B23107EC80075D4DA /* pistola_bang.mp3 */,
 				3DCF6B9F230DEC5D00CFB9D8 /* Jumping-sound-effect.mp3 */,
 				3DCF6B71230DEA3900CFB9D8 /* AppDelegate.swift */,
 				3DCF6B73230DEA3900CFB9D8 /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				3DCF6B78230DEA3B00CFB9D8 /* Assets.xcassets */,
 				3DCF6B7A230DEA3B00CFB9D8 /* LaunchScreen.storyboard */,
 				3DCF6B7D230DEA3B00CFB9D8 /* Info.plist */,
+				3DD1626D231089190075D4DA /* PantallaRojaController.swift */,
 			);
 			path = sonidos;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				3DCF6BA0230DEC5D00CFB9D8 /* Jumping-sound-effect.mp3 in Resources */,
 				3DCF6B7C230DEA3B00CFB9D8 /* LaunchScreen.storyboard in Resources */,
 				3DCF6B79230DEA3B00CFB9D8 /* Assets.xcassets in Resources */,
+				3DD1626C23107EC80075D4DA /* pistola_bang.mp3 in Resources */,
 				3DCF6B77230DEA3900CFB9D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DCF6B74230DEA3900CFB9D8 /* ViewController.swift in Sources */,
+				3DD1626E231089190075D4DA /* PantallaRojaController.swift in Sources */,
 				3DCF6B72230DEA3900CFB9D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
